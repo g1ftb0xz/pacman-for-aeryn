@@ -16,3 +16,7 @@ Add the repository and install `pacman-for-aeryn`:
 ## Building from Source
 
 sudo boulder build stone.yaml
+
+# Disclaimers!
+
+This package does **NOT** give you Arch packages. It is merely just a wrapper that translates Arch Linux ``pacman`` syntax into aerynOS ``moss`` syntax.
