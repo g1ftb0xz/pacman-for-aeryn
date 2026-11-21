@@ -1,0 +1,15 @@
+# SPDX-FileCopyrightText: 2026 Your Name
+# SPDX-License-Identifier: MIT
+name        : pacman-for-aeryn
+version     : "1.0.0"
+release     : 1
+homepage    : https://github.com
+summary     : Pacman wrapper script for aerynOS
+description : |
+    A Fish shell script providing pacman-style command syntax for moss on aerynOS.
+license     :
+    - MIT
+rundeps     :
+    - binary(fish)
+install     : |
+    %install_bin %(pkgdir)/pacman
